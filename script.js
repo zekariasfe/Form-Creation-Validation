@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = emailInput.value.trim();
         const password = passwordInput.value.trim();
         let isValid = true;
-        let messages = [];
+        const messages = [];
 
         if (username.length < 3) {
             isValid = false;
